@@ -1,0 +1,22 @@
+#include "usart.h"
+#include "stm32f10x_spi.h"
+#include "RC522.h"
+#include "delay.h"
+#include "string.h"
+#include "spi_driver.h"
+#include "stdio.h"
+#include "key.h"
+#include "led.h"
+#include "renti.h"
+#include "dianji.h"
+#include "beep.h"
+#include "p.h"
+#include "Lcd_Driver.h"
+#include "GUI.h"
+#include "hcsr.h"
+#include "ds1302.h"
+#include "w25qxx.h"
+#include "stdlib.h"
+
+void Log_save(int flag);
+void Log_display(void);
